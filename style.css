@@ -1,0 +1,360 @@
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 80px;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("../../fonts/Poppins-Black.woff2") format("woff2");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("../../fonts/Poppins-Bold.woff2") format("woff2");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("../../fonts/Poppins-SemiBold.woff2") format("woff2");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("../../fonts/Poppins-Medium.woff2") format("woff2");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("../../fonts/Poppins-Regular.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: "Inter";
+    src: url("../../fonts/Inter-Regular.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("../../fonts/Inter_24pt-ExtraLight.ttf") format("woff2");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    margin: 0;
+    font-family: "Poppins", "Arial", sans-serif;
+    font-family: "Inter", "Arial", sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.header {
+    max-width: 1280px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.header-info {
+    display: flex;
+}
+
+.header-logo {
+    margin: 10px 124px 0 0;
+}
+
+.header-logo__img {
+    margin-bottom: 1px;
+}
+
+.header-nav {
+    display: flex;
+}
+
+.header-nav__list {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    margin: 0 auto;
+}
+
+.header-nav__link {
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 100%;
+    color: #000000;
+}
+
+.header-section {
+    background-color: #FDFCF8;
+    height: auto;
+    display: flex;
+    margin-bottom: 120px;
+}
+
+.header-section__wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-section__title {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 100%;
+    color: #000000;
+    margin: 60px 0 126px 0;
+    text-align: center;
+}
+
+.header-section__services {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-section__list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.header-section__link {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: 400;
+    background-color: #F46565;
+    border-radius: 20px;
+    padding: 30px 95px;
+    margin-bottom: 12px;
+}
+
+.speccial-color__first {
+    background-color: #F46565;
+}
+
+.speccial-color__second {
+    background-color: #87AA92;
+}
+
+.speccial-color__third {
+    background-color: #F4B265;
+}
+
+.speccial-color__fours {
+    background-color: #4A90E2;
+}
+
+.speccial-color__fivs {
+    background-color: #F4B265;
+}
+
+.speccial-color__sixs {
+    background-color: #E28D4A;
+}
+
+.occupations {
+    padding: 0 0 60px;
+    margin: 0 auto;
+}
+
+.occupations-title__text {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: normal;
+    color: #000000;
+    margin: 0 0 70px 0;
+}
+
+.occupations-wrapper {
+    display: flex;
+    gap: 100px;
+    justify-content: space-around;
+    margin: 0 0 60px 0;
+    max-height: 463px;
+}
+
+.occupations-card__first {
+    margin-left: 57px;
+    margin-bottom: 60px;
+}
+
+.occupations-card {
+    padding: 50px 30px;
+    min-width: 453px;
+    background-color: #FFFFFF;
+    filter: drop-shadow(0px 0px 38.29999923706055px rgba(0, 0, 0, 0.25));
+    border-radius: 20px;
+}
+
+.occupations-card__text {
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 32px;
+    /* letter-spacing: 0%; */
+    margin: 0 0 30px 0;
+}
+
+.occupations-card__list {
+    margin: 0 0 65px 0;
+}
+
+.occupations-card__item {
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 32px;
+    margin: 0 0 10px 0;
+    color: #000000;
+}
+
+.occupations-card__link {
+    display: block;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #000000;
+    background-color: #4A90E2;
+    border-radius: 20px;
+    text-align: center;
+    padding: 19px 122px;
+}
+
+.occupations-wrapper--speccial {
+    margin: 0 0 120px 0;
+}
+
+.occupations-card__list--speccial {
+    margin: 0 auto;
+}
+
+.occupations-card__item--speccial-two {
+    margin: 0 0 32px 0;
+}
+
+.occupations-card__link--speccial {
+    display: inline-block;
+    padding: 23px 122px;
+    margin: 0 19px;
+}
+
+.speccial-color__first {
+    background-color: #F46565;
+}
+
+.speccial-color__second {
+    background-color: #87AA92;
+}
+
+.speccial-color__third {
+    background-color: #F4B265;
+}
+
+.speccial-color__fours {
+    background-color: #4A90E2;
+}
+
+.speccial-color__fivs {
+    background-color: #F4B265;
+}
+
+.speccial-color__sixs {
+    background-color: #E28D4A;
+}
+
+.offers {
+    margin-bottom: 60px;
+}
+
+.offers-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.offers-link {
+    display: inline-block;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 100%;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px 56px;
+    border-radius: 20px;
+}
+
+.footer {
+    padding: 50px 60px 23px;
+    background-color: #333333;
+}
+
+.footer-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    margin-bottom: 30px;
+}
+    
+.footer-nav__list {
+    list-style-type: none;
+    display: flex;
+    gap: 60px;
+}
+
+.footer-nav__link {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.footer-menu__wrapper {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.footer-menu__text {
+    font-family: "Poppins", sans-serif;
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 58px;
+    color: #FFFFFF;
+}
+
+.footer-menu__icons {
+    display: flex;
+    gap: 15px;
+}
